@@ -15,7 +15,7 @@ It’s designed to be **extensible**, so you can:
 
 - Add new character types or enemies
 - Implement new special moves and abilities
-- Improve the battle system or add features like items, levels, or AI
+- Improve the battle system or add features like items, levels etc.
 
 ## Features
 
@@ -25,9 +25,4 @@ It’s designed to be **extensible**, so you can:
 - **Special Moves:** Each character has a unique special attack with cooldowns
 - **Interactive Selection:** Choose your hero and enemy from the console
 
-## How to Run
 
-1. Clone the repository:
-
-```bash
-git clone <repo_url>
