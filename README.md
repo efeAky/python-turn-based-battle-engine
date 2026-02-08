@@ -1,28 +1,25 @@
-# Turn-Based RPG Battle Simulator
+# Python-Turn-Based-Battle-Engine - Learning Project
 
-A **fundamental Python RPG battle simulator** designed to demonstrate the basics of object-oriented programming, inheritance, and abstract classes. This project focuses on the **core concept of character classes, attacks, and cooldown-based special moves**—a simple foundation that is fully open for improvement and expansion.
+A simple turn-based combat game for learning Object-Oriented Programming in Python.
 
-## Purpose
+## What You'll Learn
 
-This project is intended as a **learning example** for:
+- **Abstract Base Classes**: Using ABC and `abstractmethod`
+- **Multiple Inheritance**: Classes inheriting from multiple parents
+- **Polymorphism**: Different characters implementing same methods differently
+- **Class Hierarchies**: Organized base and derived classes
+- **Turn-Based Logic**: Cooldown systems and battle mechanics
 
-- Understanding and implementing **classes** and **inheritance** in Python
-- Using **abstract base classes** to enforce methods (`Attackable`, `SpecialMove`)
-- Creating a **turn-based battle system** with attacks, defense, and cooldown mechanics
-- Practicing **interactive input** and basic game loops
+## How to Run
 
-It’s designed to be **extensible**, so you can:
+```bash
+python game.py
+```
 
-- Add new character types or enemies
-- Implement new special moves and abilities
-- Improve the battle system or add features like items, levels etc.
+## Gameplay
 
-## Features
+Choose your hero (Warrior or Mage) and battle an enemy (Orc or Goblin). Each character has unique stats and special moves with cooldowns.
 
-- **Heroes:** Warrior and Mage
-- **Enemies:** Orc and Goblin
-- **Turn-Based Combat:** Characters take turns attacking until one dies
-- **Special Moves:** Each character has a unique special attack with cooldowns
-- **Interactive Selection:** Choose your hero and enemy from the console
+## Contributing
 
-
+Contributions welcome! This project is licensed under the MIT License.
